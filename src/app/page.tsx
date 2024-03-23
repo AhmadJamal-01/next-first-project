@@ -7,7 +7,7 @@ export default function Home() {
 
           <div>
 
-Ahmad Jamal
+Ahmad Jamal.
 <h4>
 SIR JAHANZAIB ASSIGNMENT
  
