@@ -19,7 +19,7 @@ function Home() {
             router.push("./blog");
           }}
         >
-          Click Here, IF You Want To Go Blog Page. Thank You!
+          Click Here, IF You Want To Go Blog Page . Thank You!
         </button>
         <br />
         <button
@@ -39,6 +39,7 @@ function Home() {
         </button>
 <br/>
          THROUGH LINK
+
          <br/>
           <Link href="/blog">
             Click Here, If You Want To Go Blog Page. Thank You!

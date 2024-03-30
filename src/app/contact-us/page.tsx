@@ -23,7 +23,7 @@ function contactUsPage() {
       
         <h1>
           <Link href="/">
-            Click Here, IF You Want To Go Home Page. Thank You!
+            Click Here, IF You Want To Go Home Page . Thank You!
           </Link>
         </h1>
       
