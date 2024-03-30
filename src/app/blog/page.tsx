@@ -14,7 +14,7 @@ function BlogPage() {
         >
      Now Blog Page Here😊,   
      <br/> 
-     "Click Here, IF You Want To Go Home Page Click Here" Thank You!
+     "Click Here, IF You Want To Go Home Page Click Here"Thank You!
         </button>
 
 

@@ -14,7 +14,7 @@ function contactUsPage() {
         >
          Now Contact US Page Here, 
          <br/>
-         "IF You Want To Go Home Page Click Here" Thank You!
+         "IF You Want To Go Home Page Click Here"Thank You!
         </button>
 
 

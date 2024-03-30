@@ -25,7 +25,7 @@ function dashboardPage() {
       
         <h1>
           <Link href="/">
-            Click Here, If You Want To Go Home Page . Thank You!
+            Click Here, If You Want To Go Home Page. Thank You!
           </Link>
         </h1>
       
