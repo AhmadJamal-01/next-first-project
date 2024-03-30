@@ -1,7 +1,7 @@
 'use client';
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-function contactUsPage() {
+function ContactUsPage() {
   const router = useRouter ();
   return (
   
@@ -30,4 +30,4 @@ function contactUsPage() {
   );
 }
 
-export default contactUsPage;
+export default ContactUsPage;
