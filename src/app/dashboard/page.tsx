@@ -4,17 +4,15 @@ import Link from "next/link";
 function dashboardPage() {
   const router = useRouter ();
   return (
-   
+  
     <div>
 
-       <button
+      <button
           onClick={() => {
             router.push("./");
           }}
         >
-         Now DashBoard Page Here, 
-         <br/>
-         "If You Want To Go Home Page Click Here" Thank You!
+        Now DashBoard Page Here,"If You Want To Go Home Page Click Here" Thank You!
         </button>
 
 

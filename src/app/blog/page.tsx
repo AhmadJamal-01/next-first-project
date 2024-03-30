@@ -4,17 +4,16 @@ import Link from "next/link";
 function BlogPage() {
   const router = useRouter ();
   return (
-   
+  
     <div>
 
-       <button
+    <button
           onClick={() => {
             router.push("./");
           }}
         >
-     Now Blog Page Here😊,   
-     <br/> 
-     "Click Here, IF You Want To Go Home Page Click Here"Thank You!
+    Now Blog Page Here,   
+    "Click Here, IF You Want To Go Home Page Click Here"Thank You!
         </button>
 
 

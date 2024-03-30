@@ -13,7 +13,7 @@ function Home() {
         <h4>SIR JAHANZAIB ASSIGNMENT</h4>
       </div>
       <div>
-        {/* Use ROUTER HOOK */}
+      Use ROUTER HOOK
         <button
           onClick={() => {
             router.push("./blog");
@@ -38,9 +38,9 @@ function Home() {
           Click Here, IF You Want To Check Dashboard Page. Thank You!
         </button>
 <br/>
-         THROUGH LINK
+        THROUGH LINK
 
-         <br/>
+  
           <Link href="/blog">
             Click Here, If You Want To Go Blog Page. Thank You!
           </Link>

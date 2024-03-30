@@ -4,17 +4,16 @@ import Link from "next/link";
 function contactUsPage() {
   const router = useRouter ();
   return (
-   
+  
     <div>
 
-       <button
+      <button
           onClick={() => {
             router.push("./");
           }}
         >
-         Now Contact US Page Here, 
-         <br/>
-         "IF You Want To Go Home Page Click Here"Thank You!
+      Now Contact US Page Here, 
+      "IF You Want To Go Home Page Click Here"Thank You!
         </button>
 
 
