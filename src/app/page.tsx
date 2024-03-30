@@ -13,7 +13,7 @@ function Home() {
         <h4>SIR JAHANZAIB ASSIGNMENT</h4>
       </div>
       <div>
-      Use ROUTER HOOK
+      Use ROUTER HOOK 
         <button
           onClick={() => {
             router.push("./blog");

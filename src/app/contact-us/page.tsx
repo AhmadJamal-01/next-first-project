@@ -13,7 +13,7 @@ function contactUsPage() {
           }}
         >
       Now Contact US Page Here, 
-      "IF You Want To Go Home Page Click Here"Thank You!
+      "IF You Want To Go Home Page Click Here" Thank You!
         </button>
 
 

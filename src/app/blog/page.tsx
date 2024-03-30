@@ -13,7 +13,7 @@ function BlogPage() {
           }}
         >
     Now Blog Page Here,   
-    "Click Here, IF You Want To Go Home Page Click Here"Thank You!
+    "Click Here, IF You Want To Go Home Page Click Here" Thank You!
         </button>
 
 
@@ -22,7 +22,7 @@ function BlogPage() {
       
         <h1>
           <Link href="/">
-            Click Here, IF You Want To Go Home Page. Thank You!
+            Click Here, IF You Want To Go Home Page.Thank You!
           </Link>
         </h1>
       
