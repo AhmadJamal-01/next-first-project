@@ -1,7 +1,7 @@
 'use client';
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-function dashboardPage() {
+function DashboardPage() {
   const router = useRouter ();
   return (
   
@@ -31,4 +31,4 @@ function dashboardPage() {
   );
 }
 
-export default dashboardPage;
+export default DashboardPage;
