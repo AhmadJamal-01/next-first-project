@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-//import Link from "next/link";
+import Link from "next/link";
 function Home() {
   const router = useRouter();
 
@@ -38,7 +38,7 @@ function Home() {
           Click Here, IF You Want To Check Dashboard Page. Thank You!
         </button>
 
-         {/* THROUGH LINK
+         THROUGH LINK
           <Link href="/blog">
             Click Here, If You Want To Go Blog Page. Thank You!
           </Link>
@@ -52,7 +52,7 @@ function Home() {
           <Link href="/dashboard">
             Click Here, If You Want To Check Dashboard Page. Thank You!
           </Link>
-         */}
+        
       </div>
     </div>
   );
