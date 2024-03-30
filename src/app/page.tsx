@@ -37,8 +37,9 @@ function Home() {
         >
           Click Here, IF You Want To Check Dashboard Page. Thank You!
         </button>
-
+<br/>
          THROUGH LINK
+         <br/>
           <Link href="/blog">
             Click Here, If You Want To Go Blog Page. Thank You!
           </Link>
