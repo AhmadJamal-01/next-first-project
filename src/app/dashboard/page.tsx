@@ -1,18 +1,36 @@
+'use client';
+import { useRouter } from "next/navigation";
 import Link from "next/link";
-
-function DashBoardPage() {
+function dashboardPage() {
+  const router = useRouter ();
   return (
+   
     <div>
-      DashBoard Page Here.
-      <div>
+
+       <button
+          onClick={() => {
+            router.push("./");
+          }}
+        >
+         Now DashBoard Page Here😊, 
+         <br/>
+         "If You Want To Go Home Page Click Here" Thank You!
+        </button>
+
+
+
+        
+{/*         
+        DashBoard Page Here.
+      
         <h1>
           <Link href="/">
             Click Here, If You Want To Go Home Page. Thank You!
           </Link>
-        </h1>
-      </div>
+        </h1> */}
+      
     </div>
   );
 }
 
-export default DashBoardPage;
+export default dashboardPage;
