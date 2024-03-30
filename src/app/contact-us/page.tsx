@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+//import Link from "next/link";
 function ContactUsPage() {
   const router = useRouter ();
   return (
@@ -17,14 +17,14 @@ function ContactUsPage() {
         </button>
 
 
-
+{/* 
         Contact Us Page Here.
       
         <h1>
           <Link href="/">
             Click Here, IF You Want To Go Home Page . Thank You!
           </Link>
-        </h1>
+        </h1> */}
       
     </div>
   );

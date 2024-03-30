@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+//import Link from "next/link";
 function Home() {
   const router = useRouter();
 
@@ -13,7 +13,7 @@ function Home() {
         <h4>SIR JAHANZAIB ASSIGNMENT</h4>
       </div>
       <div>
-      Use ROUTER HOOK 
+      {/* Use ROUTER HOOK  */}
         <button
           onClick={() => {
             router.push("./blog");
@@ -37,8 +37,8 @@ function Home() {
         >
           Click Here, IF You Want To Check Dashboard Page. Thank You!
         </button>
-<br/>
-        THROUGH LINK
+{/* <br/>
+        // THROUGH LINK
 
   
           <Link href="/blog">
@@ -53,9 +53,9 @@ function Home() {
         
           <Link href="/dashboard">
             Click Here, If You Want To Check Dashboard Page. Thank You!
-          </Link>
+          </Link> */}
         
-      </div>cd
+      </div>
     </div>
   );
 }

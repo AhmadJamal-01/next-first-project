@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+//import Link from "next/link";
 function BlogPage() {
   const router = useRouter ();
   return (
@@ -13,18 +13,18 @@ function BlogPage() {
           }}
         >
     Now Blog Page Here,   
-    "Click Here, IF You Want To Go Home Page Click Here" Thank You!
+    "Click Here, IF You Want To Go Home Page." Thank You!
         </button>
 
 
 
-      Blog Page Here.
+      {/* Blog Page Here.
       
         <h1>
           <Link href="/">
             Click Here, IF You Want To Go Home Page.Thank You!
           </Link>
-        </h1>
+        </h1> */}
       
     </div>
   );
