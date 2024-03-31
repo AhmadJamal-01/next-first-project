@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 
 
-function analyticsPage(){
+function AnalyticsPage(){
     const router = useRouter();
     const handleBack = () => {
 router.back
@@ -17,4 +17,4 @@ router.back
         Analytics Page Here. </div>;
 }  
 
-export default analyticsPage;
+export default AnalyticsPage;
