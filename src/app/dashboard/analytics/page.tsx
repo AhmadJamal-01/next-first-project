@@ -11,7 +11,7 @@ router.back()
         <div>
 
         <button className="
-        bg-gray-300 rounded-sm p-5 m-2 " onClick={handleBack}> Back</button>
+        bg-gray-300 rounded-sm p-5 m-2 hover:bg-teal-300" onClick={handleBack}> Back</button>
         </div>
         <h1 className="hover:text-teal-300">
         Analytics Page Here.</h1> </div>;
