@@ -10,7 +10,7 @@ function Home() {
       <h1>PIAIC Batch 52</h1>
       <div>
         Ahmad Jamal.
-        <h4>SIR JAHANZAIB ASSIGNMENT</h4>
+        <h4 className="text-yellow-200">SIR JAHANZAIB ASSIGNMENT</h4>
       </div>
       <div>
       {/* Use ROUTER HOOK  */}
@@ -19,7 +19,7 @@ function Home() {
             router.push("./blog");
           }}
         >
-          Click Here, IF You Want To Go Blog Page. Thank You!
+          <h1 className="hover:text-teal-300">Click Here, IF You Want To Go <b>BLOG PAGE </b>. Thank You!</h1>
         </button>
         <br />
         <button
@@ -27,7 +27,7 @@ function Home() {
             router.push("./contact-us");
           }}
         >
-          Click Here, IF You Want To Contact PIAIC Students. Thank You!
+          <h1 className="hover:text-teal-300">Click Here, IF You Want To <b> CONTACT US </b>with PIAIC Students. Thank You!</h1>
         </button>
         <br />
         <button
@@ -35,7 +35,7 @@ function Home() {
             router.push("./dashboard");
           }}
         >
-          Click Here, IF You Want To Check Dashboard Page. Thank You!
+         <h1 className="hover:text-teal-300"> Click Here, IF You Want To Check <b>DASHBOARD PAGE</b>. Thank You!</h1>
         </button>
 {/* <br/>
         // THROUGH LINK

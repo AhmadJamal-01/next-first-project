@@ -5,16 +5,16 @@ import { useRouter } from "next/navigation";
 function AnalyticsPage(){
     const router = useRouter();
     const handleBack = () => {
-router.back
+router.back()
     };
     return <div>
         <div>
 
         <button className="
-        bg-gray-300 rounded-sm p-5 m-2 onClick={handleBack}"> Back</button>
+        bg-gray-300 rounded-sm p-5 m-2 " onClick={handleBack}> Back</button>
         </div>
-        
-        Analytics Page Here. </div>;
+        <h1 className="hover:text-teal-300">
+        Analytics Page Here.</h1> </div>;
 }  
 
 export default AnalyticsPage;
